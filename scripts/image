@@ -37,7 +37,7 @@ $SCRIPTS/build populatefs:host
 
 BUILD_DATE=`date +%Y%m%d%H%M%S`
 
-GIT_HASH=$(git rev-parse HEAD)
+#GIT_HASH=$(git rev-parse HEAD)
 
 if [ "$LIBREELEC_VERSION" = "devel" ]; then
   if ! GIT_BUILD=$(git rev-list --count HEAD 2>/dev/null)
